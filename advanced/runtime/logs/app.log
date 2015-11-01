@@ -1,0 +1,141 @@
+2015-10-28 01:28:17 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model1' in /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/controllers/SiteController.php:108
+Stack trace:
+#0 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/controllers/SiteController.php(108): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 108, Array)
+#1 [internal function]: app\controllers\SiteController->actionEntry()
+#2 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('entry', Array)
+#5 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/entry', Array)
+#6 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2015-10-28 01:28:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_POST = [
+    '_csrf' => 'Q004TUVOb2F1flVgGnoYGw8AWyopHVwQKipqHBANOBdxBls4cjk.OA=='
+    'EntryForm' => [
+        'name' => 'harish'
+        'email' => 'h@m.com'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '8e029dfcd3190754158cc818057fedcb32044e4d33b931caa749324b4f822e1ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"63m-_4wzLMcglS3qigRQUCWv2Kcu7wQY\";}'
+    'PHPSESSID' => 'd0007c5e19b919c16c3a30cdc3f58c56'
+    '_identity' => 'b3108e1bdb9552b9734485c8cc2079f2e585873910a30ab5373a40acc7f6c2d3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost:8888/GitHub/practise_yii2_project/advanced/web/index.php?r=site/entry'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=8e029dfcd3190754158cc818057fedcb32044e4d33b931caa749324b4f822e1ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2263m-_4wzLMcglS3qigRQUCWv2Kcu7wQY%22%3B%7D; PHPSESSID=d0007c5e19b919c16c3a30cdc3f58c56; _identity=b3108e1bdb9552b9734485c8cc2079f2e585873910a30ab5373a40acc7f6c2d3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '124'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.6 PHP/5.5.14 mod_ssl/2.2.26 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.18.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '52450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/GitHub/practise_yii2_project/advanced/web/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/GitHub/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/GitHub/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445992096.91
+    'REQUEST_TIME' => 1445992096
+    'argv' => [
+        0 => 'r=site/entry'
+    ]
+    'argc' => 1
+]
+2015-10-28 01:28:47 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/views/site/entry-confirm.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/views/site/entry-confirm.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/Applications/M...', 8, Array)
+#1 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/M...', Array, Object(app\controllers\SiteController))
+#4 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('entry-confirm', Array, Object(app\controllers\SiteController))
+#5 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/controllers/SiteController.php(108): yii\base\Controller->render('entry-confirm')
+#6 [internal function]: app\controllers\SiteController->actionEntry()
+#7 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('entry', Array)
+#10 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/entry', Array)
+#11 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2015-10-28 01:28:47 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_POST = [
+    '_csrf' => 'Q004TUVOb2F1flVgGnoYGw8AWyopHVwQKipqHBANOBdxBls4cjk.OA=='
+    'EntryForm' => [
+        'name' => 'harish'
+        'email' => 'h@m.com'
+    ]
+]
+
+$_COOKIE = [
+    'SQLiteManager_currentLangue' => '2'
+    '_csrf' => '8e029dfcd3190754158cc818057fedcb32044e4d33b931caa749324b4f822e1ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"63m-_4wzLMcglS3qigRQUCWv2Kcu7wQY\";}'
+    'PHPSESSID' => 'd0007c5e19b919c16c3a30cdc3f58c56'
+    '_identity' => 'b3108e1bdb9552b9734485c8cc2079f2e585873910a30ab5373a40acc7f6c2d3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost:8888/GitHub/practise_yii2_project/advanced/web/index.php?r=site/entry'
+    'HTTP_COOKIE' => 'SQLiteManager_currentLangue=2; _csrf=8e029dfcd3190754158cc818057fedcb32044e4d33b931caa749324b4f822e1ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2263m-_4wzLMcglS3qigRQUCWv2Kcu7wQY%22%3B%7D; PHPSESSID=d0007c5e19b919c16c3a30cdc3f58c56; _identity=b3108e1bdb9552b9734485c8cc2079f2e585873910a30ab5373a40acc7f6c2d3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '124'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.6 PHP/5.5.14 mod_ssl/2.2.26 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.18.2'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/GitHub/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '52463'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/GitHub/practise_yii2_project/advanced/web/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/GitHub/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/GitHub/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1445992127.31
+    'REQUEST_TIME' => 1445992127
+    'argv' => [
+        0 => 'r=site/entry'
+    ]
+    'argc' => 1
+]
