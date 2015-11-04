@@ -139,3 +139,1242 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2015-11-04 00:39:14 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList.php' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList.php', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:39:14 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList.php'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58985'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList.php'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList.php'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446597554.685
+    'REQUEST_TIME' => 1446597554
+]
+2015-11-04 00:39:33 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:39:33 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58986'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446597573.191
+    'REQUEST_TIME' => 1446597573
+]
+2015-11-04 00:40:23 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:40:23 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58987'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446597623.546
+    'REQUEST_TIME' => 1446597623
+]
+2015-11-04 00:40:28 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList.php' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList.php', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:40:28 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList.php'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58987'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList.php'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList.php'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446597628.132
+    'REQUEST_TIME' => 1446597628
+]
+2015-11-04 00:41:21 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/create.php' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create.php', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/create....', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:41:21 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/create.php'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58988'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/create.php'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/create.php'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446597681.127
+    'REQUEST_TIME' => 1446597681
+]
+2015-11-04 00:46:53 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:46:53 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446598013.654
+    'REQUEST_TIME' => 1446598013
+]
+2015-11-04 00:47:24 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:47:24 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58996'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446598044.818
+    'REQUEST_TIME' => 1446598044
+]
+2015-11-04 00:56:50 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 00:56:50 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '58997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446598610.279
+    'REQUEST_TIME' => 1446598610
+]
+2015-11-04 01:06:19 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'yii\base\InvalidParamException' with message 'Attribute name must contain word characters only.' 
+
+in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php:2076
+
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1207): yii\helpers\BaseHtml::getInputName(Object(app\models\Country), 'Country code')
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1257): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Country), 'Country code', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(358): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Country), 'Country code', Array)
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(184): yii\widgets\ActiveField->textInput()
+#4 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(156): yii\widgets\ActiveField->render()
+#5 /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php(14): yii\widgets\ActiveField->__toString()
+#6 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/G...')
+#7 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/G...', Array)
+#8 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/G...', Array, Object(app\controllers\CountryController))
+#9 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('countryList', Array, Object(app\controllers\CountryController))
+#10 /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php(46): yii\base\Controller->render('countryList', Array)
+#11 [internal function]: app\controllers\CountryController->actionIndex()
+#12 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#15 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/index', Array)
+#16 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#18 {main}' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidParamException))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php(14): yii\widgets\ActiveField->__toString()
+#4 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/G...')
+#5 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\CountryController))
+#7 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\CountryController))
+#8 /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php(46): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\controllers\CountryController->actionIndex()
+#10 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php:14
+    in /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php:46
+2015-11-04 01:06:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2Findex'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446599179.627
+    'REQUEST_TIME' => 1446599179
+]
+2015-11-04 01:06:42 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Country::Countrycode' 
+
+in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Component.php:143
+
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('Countrycode')
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(2029): yii\db\BaseActiveRecord->__get('Countrycode')
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1208): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Country), 'Countrycode')
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(1257): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Country), 'Countrycode', Array)
+#4 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(358): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Country), 'Countrycode', Array)
+#5 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(184): yii\widgets\ActiveField->textInput()
+#6 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(156): yii\widgets\ActiveField->render()
+#7 /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php(14): yii\widgets\ActiveField->__toString()
+#8 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/G...')
+#9 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/html/G...', Array)
+#10 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/G...', Array, Object(app\controllers\CountryController))
+#11 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('countryList', Array, Object(app\controllers\CountryController))
+#12 /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php(46): yii\base\Controller->render('countryList', Array)
+#13 [internal function]: app\controllers\CountryController->actionIndex()
+#14 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#17 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/index', Array)
+#18 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#20 {main}' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(158): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php(14): yii\widgets\ActiveField->__toString()
+#4 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/html/G...')
+#5 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\CountryController))
+#7 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\CountryController))
+#8 /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php(46): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\controllers\CountryController->actionIndex()
+#10 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /var/www/html/Git_projects/practise_yii2_project/advanced/views/country/countryList.php:14
+    in /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php:46
+2015-11-04 01:06:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59015'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2Findex'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446599202.723
+    'REQUEST_TIME' => 1446599202
+]
+2015-11-04 01:12:22 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:12:22 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59049'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446599542.571
+    'REQUEST_TIME' => 1446599542
+]
+2015-11-04 01:15:51 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:15:51 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446599751.532
+    'REQUEST_TIME' => 1446599751
+]
+2015-11-04 01:17:02 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:17:02 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59060'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446599822.92
+    'REQUEST_TIME' => 1446599822
+]
+2015-11-04 01:22:04 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:22:04 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59075'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446600124.897
+    'REQUEST_TIME' => 1446600124
+]
+2015-11-04 01:22:59 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:22:59 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59079'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446600179.261
+    'REQUEST_TIME' => 1446600179
+]
+2015-11-04 01:24:03 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:24:03 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59083'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446600243.481
+    'REQUEST_TIME' => 1446600243
+]
+2015-11-04 01:26:26 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:26:26 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446600386.751
+    'REQUEST_TIME' => 1446600386
+]
+2015-11-04 01:38:04 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:38:04 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59091'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/countryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/countryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446601084.086
+    'REQUEST_TIME' => 1446601084
+]
+2015-11-04 01:38:48 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)' in /var/www/html/Git_projects/practise_yii2_project/advanced/controllers/CountryController.php:80
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-04 01:38:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/create'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59095'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/create'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country/create'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446601128.734
+    'REQUEST_TIME' => 1446601128
+]
+2015-11-04 01:39:52 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: country/countryList' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('countryList', Array)
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('country/country...', Array)
+#2 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/Git_projects/practise_yii2_project/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-04 01:39:52 [127.0.0.1][-][btc8u7lv81q8j4a0m6ikoabas1][info][application] $_GET = [
+    'r' => 'country/countryList'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ncBItc3-twg1KuNf-g0QY_OHDlSbckVO\";}'
+    'PHPSESSID' => 'btc8u7lv81q8j4a0m6ikoabas1'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2Findex'
+    'HTTP_COOKIE' => '_csrf=e1772194e9b681c8f00052b7d597a7bb3796de5a1d9b917537349a8d2749770aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ncBItc3-twg1KuNf-g0QY_OHDlSbckVO%22%3B%7D; PHPSESSID=btc8u7lv81q8j4a0m6ikoabas1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REMOTE_PORT' => '59111'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2FcountryList'
+    'REQUEST_URI' => '/Git_projects/practise_yii2_project/advanced/web/index.php?r=country%2FcountryList'
+    'SCRIPT_NAME' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'PHP_SELF' => '/Git_projects/practise_yii2_project/advanced/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1446601192.268
+    'REQUEST_TIME' => 1446601192
+]

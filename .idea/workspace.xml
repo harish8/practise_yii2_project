@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b834d415-bffc-4136-86f4-1eda64e73195" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe0269b870.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe070c6d04.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe078e4f43.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe07927d66.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe07ecb989.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe081c77b3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe08254d6d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe0889b414.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fe18dea4b3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fed1597d0f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562fed1ddbd9e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff7e9d2b7a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff7f762ac6.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff806b1092.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff8d5f28e8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff903525ca.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ff9452cc53.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ffa4a9bbee.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ffa57a1242.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ffa5f10f81.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/562ffa6d38fe8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/563015f3736df.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/5630160f8c10d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/563016a10bce5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/563016bf6d6e9.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/563016dd44346.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/5630175a87a10.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/5630176953031.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/advanced/runtime/debug/563017745cad6.data" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/controllers/CountryController.php" afterPath="$PROJECT_DIR$/advanced/controllers/CountryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/models/Country.php" afterPath="$PROJECT_DIR$/advanced/models/Country.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/runtime/debug/index.data" afterPath="$PROJECT_DIR$/advanced/runtime/debug/index.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/runtime/logs/app.log" afterPath="$PROJECT_DIR$/advanced/runtime/logs/app.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/views/country/index.php" afterPath="$PROJECT_DIR$/advanced/views/country/index.php" />
     </list>
     <ignored path="practise_yii2_project.iws" />
@@ -30,7 +59,7 @@
       <file leaf-file-name="Country.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/models/Country.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.666666">
+            <state vertical-scroll-proportion="-25.291666">
               <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
@@ -40,9 +69,11 @@
       <file leaf-file-name="CountryController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/advanced/controllers/CountryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.9698708">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-1.4103299">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#35#43#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,11 +81,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/views/country/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state vertical-scroll-proportion="-12.791667">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="e#7#28#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/views/country/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +128,7 @@
         <option value="$PROJECT_DIR$/advanced/runtime/gii-2.0.6/yii-gii-generators-crud-Generator.json" />
         <option value="$PROJECT_DIR$/advanced/models/Country.php" />
         <option value="$PROJECT_DIR$/advanced/views/country/index.php" />
+        <option value="$PROJECT_DIR$/advanced/views/country/countryList.php" />
         <option value="$PROJECT_DIR$/advanced/controllers/CountryController.php" />
       </list>
     </option>
@@ -373,10 +415,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="52" width="687" height="848" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3447738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,7 +475,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,16 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/views/country/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advanced/models/CountrySearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3328551">
@@ -659,9 +694,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34433284">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/grid/GridView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5380201">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/views/country/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.791667">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/views/country/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/advanced/models/Country.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.666666">
+        <state vertical-scroll-proportion="-25.291666">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
@@ -669,9 +738,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/controllers/CountryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9698708">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-1.4103299">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
